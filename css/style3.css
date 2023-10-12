@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* || RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* COLORS */
+  --HEADER-BGCOLOR: #333;
+  --HEADER-COLOR: whitesmoke;
+}
+
+/* || CLASES DE UTILIDAD */
+
+.underline {
+    text-decoration: underline;
+}
+
+.nowrap {
+    text-wrap: nowrap;
+}
+
+/* || ESTILOS GENERALES */
+
+html {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+/* || BLOQUES */
+
+.header {
+    top: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    background-color: var(--HEADER-COLOR);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.footer {
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+
+/* || ELEMENTOS */
+
+.header__titulo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 0.75rem;
+}
+
+.header__nav {
+    width: 100vw;
+    display: flex;
+    flex-grow: auto;
+}
+
+.header__menu{
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main__recomendados {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.main__contenido {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex-grow: 1;
+    gap: 0.5rem;
+}
+
+.main__contenido p {
+    width: 95vw;
+    height: 95vw;
+    border: solid 1px #000;
+}
+
+.footer__mediospago{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0.5rem 1rem;
+}
+
+.footer__contacto {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.2rem;
+    align-items: center;
+    padding: 1rem 0.5rem 1rem;
+}
+
+.footer__mediospago li:first-child, .footer__contacto li:first-child {
+    width: 100vw;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:any-link{
+    color:var(--HEADER-COLOR);
+}
+
