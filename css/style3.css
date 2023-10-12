@@ -27,7 +27,7 @@ button {
 }
 
 .nowrap {
-    text-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 /* || ESTILOS GENERALES */
