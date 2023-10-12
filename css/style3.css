@@ -159,3 +159,15 @@ a:any-link{
     color:var(--HEADER-COLOR);
 }
 
+@media screen and (min-width: 992px){
+    .main__contenido {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .main__contenido p {
+        width: min(45vw, 500px);
+        height: min(45vw, 500px);
+    }
+}
