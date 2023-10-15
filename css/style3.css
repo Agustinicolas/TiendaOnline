@@ -54,6 +54,7 @@ ul{
 
 .header {
     top: 0;
+    background-image: url("../img/headerFondo/fondoHeader2.jpg");
     background-color: var(--HEADER-BGCOLOR);
     color: var(--HEADER-COLOR);
     padding: 1rem 1rem 0.5rem;
@@ -66,7 +67,8 @@ ul{
 }
 
 .main {
-    background-color: var(--HEADER-COLOR);
+    background-color: greenyellow;
+    /*background-color: var(--HEADER-COLOR);*/
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -111,19 +113,45 @@ ul{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-
+/*estilos del catalogo*/
 .main__contenido {
-    display: flex;
-    flex-flow: column nowrap;
+    display: inline-flex;
+    /*flex-flow: column nowrap;*/
     align-items: center;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     gap: 0.5rem;
+    justify-content: space-evenly;
 }
 
-.main__contenido p {
-    width: 95vw;
-    height: 95vw;
-    border: solid 1px #000;
+.main__caja{
+    align-items: center;
+    list-style: none;
+    width: 250px;
+    height: 350px;
+    margin: 20px 60px;
+    padding-bottom: 30%;
+    border: solid 2px #000;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+.main__caja img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.main__caja h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilos del footer*/
+.footer{
+    display: inline-flex;
 }
 
 .footer__mediospago{
@@ -133,6 +161,9 @@ ul{
     align-items: center;
     justify-content: space-around;
     padding: 1rem 0.5rem 1rem;
+}
+.footer__mediospago li img {
+    border-radius: 4px;
 }
 
 .footer__contacto {
@@ -167,8 +198,8 @@ a:any-link{
         justify-content: space-evenly;
     }
 
-    .main__contenido p {
-        width: min(45vw, 500px);
-        height: min(45vw, 500px);
-    }
+/*.main__contenido div {
+        width: min(45vw, 350px);
+        height: min(45vw, 350px);
+    }*/
 }
