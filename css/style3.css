@@ -30,10 +30,15 @@ button {
     flex-wrap: nowrap;
 }
 
+.nowrapAndBlock {
+    flex-wrap: nowrap;
+    display: block;
+}
+
 /* || ESTILOS GENERALES */
 
 html {
-    font-size: 1.25rem;
+    /*font-size: 1.25rem;*/
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
@@ -64,19 +69,18 @@ ul{
     position: sticky;
     top: 0;
     box-shadow: 0 0 20px rgb(72, 0, 155);
-    text-shadow: 0 0 40px #ffffff;
 }
+
 @media (hover: hover){
     .header__menu a:hover{
-        color: rgb(221, 184, 255);
-        text-shadow: 0 0 40px #6200ff;
+        text-shadow: 0 0 50px #5a00eb;
     }
 }
 
 
 .main {
     background-image: url("../img/headerFondo/b63ff50bc41013957b0085f00b1ce2b5.jpg");
-    background-color: rgb(0, 0, 0);
+    /*background-color: rgb(0, 0, 0);*/
     /*background-color: var(--HEADER-COLOR);*/
     display: flex;
     flex-flow: column nowrap;
@@ -115,8 +119,21 @@ ul{
     flex-grow: 1;
     justify-content: space-evenly;
     align-items: center;
+    transition: 0.5s;
+}
+.header__menu li {
+    transition: 0.5s;
+}
+@media (hover: hover) {
+    .header__menu li:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 }
 
+
+/*estilos del catalogo*/
 .main__recomendados {
     font-size: 1.4rem;
     padding-top: 0.5rem;
@@ -124,7 +141,7 @@ ul{
     color: whitesmoke;
 
 }
-/*estilos del catalogo*/
+
 .main__contenido {
     display: inline-flex;
     flex-flow: column nowrap;
@@ -145,14 +162,18 @@ ul{
     height: 350px;
     margin: 20px 60px;
     padding-bottom: 30%;
-    border: solid 1px #ffffff;
+    border: solid 2px #ffffff;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+    transition: 0.5s;
 }
 
 @media (hover: hover) {
     .main__caja:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.5s;
         box-shadow: 0 0 30px rgb(102, 0, 219);
     }
 }
@@ -170,7 +191,7 @@ ul{
     align-items: center;
     display: flex;
     justify-content: center;
-    
+    color: #000000;
 }
 
 /*Estilos del footer*/
@@ -190,8 +211,8 @@ ul{
     border-radius: 4px;
 }
 
-.footer__contacto {
-    display: flex;
+.footer__contacto li{
+    display: inline-flex;
     flex-flow: column wrap;
     gap: 0.2rem;
     align-items: center;
@@ -223,7 +244,124 @@ a:any-link{
     }
 
 /*.main__contenido div {
-        width: min(45vw, 350px);
-        height: min(45vw, 350px);
+        width: 250px;
+        height: 350px;
+        margin: 20px 60px;
     }*/
 }
+
+
+/* estilos para la paginas de Productos
+EJEM: productoRemeara.html */
+
+.main__producto {
+    /*background-color: rgb(47, 241, 255);*/
+    display: inline-flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+@media screen and (min-width: 992px){
+    .main__producto {
+        
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+    .cajaProducto{
+        display: flex;
+        width: 350px;
+        height: 500px;
+        margin: 140px 100px 200px 100px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px rgb(102, 0, 219);
+    }
+
+    .cajaProducto img{
+        justify-content: center;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .opcionesProducto {
+        list-style: none;
+        display: flex;
+        flex-flow: column wrap;
+        vertical-align:baseline;
+        align-items:center;
+        justify-content: space-evenly;/*centra todo en el box*/
+        width: 500px;
+        height: 600px;
+        background-color: rgb(20, 20, 20);
+        border: solid 2px #ffffff;
+        margin: 140px 100px 200px 100px;
+    }
+    .opcionesProducto li h2 {
+        color: whitesmoke;
+        margin: 4px;
+    }
+    .opcionesProducto li h1 {
+        color: whitesmoke;
+        margin: 4px;
+    }
+
+    .colores__cajitas {
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 350px;
+        height: 150px;
+        border-radius: 10px;
+        border: solid 2px #000000; 
+    }
+    .colores__individual {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        border-radius: 6px;
+        transition: 0.5s;
+        background-color: #ffffff;
+    }
+    @media (hover: hover) {
+        .colores__individual:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: 0.5s;
+            box-shadow: 0 0 30px rgb(102, 0, 219);
+        }
+    }
+
+    .talles__cajitas {
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid 2px #000000; 
+    }
+    .talles__individual {
+        width: 30px;
+        height: 30px;
+        margin: 4px;
+        border-radius: 6px;
+        border: solid 2px #000000;
+        background-color: #ffffff;
+        text-align: center;
+        
+    }
+
+    .talles__cajitas {
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid 2px #000000; 
+    }
+    
