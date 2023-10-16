@@ -288,18 +288,16 @@ EJEM: productoRemeara.html */
         list-style: none;
         display: flex;
         flex-flow: column wrap;
-        vertical-align:baseline;
-        align-items:center;
+        
         justify-content: space-evenly;/*centra todo en el box*/
         width: 500px;
         height: 600px;
-        background-color: rgb(20, 20, 20);
-        border: solid 2px #ffffff;
+        /*background-color: rgb(20, 20, 20);
+        border: solid 2px #ffffff;*/
         margin: 140px 100px 200px 100px;
     }
     .opcionesProducto li h2 {
         color: whitesmoke;
-        margin: 4px;
     }
     .opcionesProducto li h1 {
         color: whitesmoke;
@@ -321,7 +319,7 @@ EJEM: productoRemeara.html */
         height: 30px;
         margin: 10px;
         border-radius: 6px;
-        transition: 0.5s;
+        transition: 1s;
         background-color: #ffffff;
     }
     @media (hover: hover) {
@@ -330,6 +328,31 @@ EJEM: productoRemeara.html */
             transform: scale(1.1);
             transition: 0.5s;
             box-shadow: 0 0 30px rgb(102, 0, 219);
+        }
+    }
+
+    #color1 {
+        background-color: tomato;
+    }
+    @media (hover: hover) {
+        #color1:hover{
+            box-shadow: 0 0 30px tomato;
+        }
+    }
+    #color2 {
+        background-color: greenyellow;
+    }
+    @media (hover: hover) {
+        #color2:hover{
+            box-shadow: 0 0 30px greenyellow;
+        }
+    }
+    #color3 {
+        background-color: royalblue;
+    }
+    @media (hover: hover) {
+        #color3:hover{
+            box-shadow: 0 0 30px royalblue;
         }
     }
 
@@ -353,6 +376,14 @@ EJEM: productoRemeara.html */
         text-align: center;
         
     }
+    @media (hover: hover) {
+        .talles__individual:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: 0.5s;
+            box-shadow: 0 0 30px rgb(102, 0, 219);
+        }
+    }
 
     .talles__cajitas {
         display: inline-flex;
@@ -364,4 +395,4 @@ EJEM: productoRemeara.html */
         border-radius: 10px;
         border: solid 2px #000000; 
     }
-    
+
