@@ -122,6 +122,7 @@ ul{
     transition: 0.5s;
 }
 .header__menu li {
+    display: block;
     transition: 0.5s;
 }
 @media (hover: hover) {
@@ -131,13 +132,34 @@ ul{
         transition: 0.5s;
     }
 }
+.header__menu li ul { /*Submenu oculto*/
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    padding-bottom: 6px;
+    position: absolute; /*hace que no se expanda el header*/
+    transition: 1.5s;
+}
+@media (hover: hover) { /*Submenu se desplega*/
+    .header__menu li:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+        cursor: pointer;
+
+    }
+}
+.submenu li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
 
 
 /*estilos del catalogo*/
 .main__recomendados {
     font-size: 1.4rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
     color: whitesmoke;
 
 }
@@ -160,7 +182,7 @@ ul{
 */
     width: 250px;
     height: 350px;
-    margin: 20px 60px;
+    margin: 25px 35px;
     padding-bottom: 30%;
     border: solid 2px #ffffff;
     border-radius: 10px;
