@@ -41,14 +41,13 @@ html {
     /*font-size: 1.25rem;*/
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    contain:paint;
 }
 
 body {
     min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
-    overflow-x: hidden;
 }
 
 ul{
@@ -83,9 +82,6 @@ ul{
 
 .main {
     background: linear-gradient(#000, #580099);
-    /* background-image: url("../img/headerFondo/b63ff50bc41013957b0085f00b1ce2b5.jpg"); */
-    /*background-color: rgb(0, 0, 0);*/
-    /*background-color: var(--HEADER-COLOR);*/
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -141,16 +137,17 @@ ul{
     flex-direction: column;
     visibility: hidden;
     opacity: 0;
-    padding-bottom: 6px;
+    padding: 0.3rem;
+    margin-top: 0.4rem;
     position: absolute; /*hace que no se expanda el header*/
     transition: 1.5s;
+    background: linear-gradient(#541299,#000);
 }
 @media (hover: hover) { /*Submenu se desplega*/
     .header__menu li:hover .submenu{
         visibility: visible;
         opacity: 1;
         cursor: pointer;
-
     }
 }
 .submenu li {
@@ -188,7 +185,7 @@ ul{
     height: auto;
     max-width: 350px;
     max-height: 600px;
-    margin: 25px 35px;
+    /* margin: 25px 35px; */
     padding-bottom: 30%;
     border: solid 2px #ffffff;
     border-radius: 10px;
@@ -301,7 +298,7 @@ EJEM: productoRemeara.html */
         display: flex;
         width: 350px;
         height: 500px;
-        margin: 140px 100px 200px 100px;
+        /* margin: 140px 100px 200px 100px; */
         border-radius: 10px;
         box-shadow: 0 0 30px rgb(102, 0, 219);
     }
@@ -322,14 +319,14 @@ EJEM: productoRemeara.html */
         height: 600px;
         /*background-color: rgb(20, 20, 20);
         border: solid 2px #ffffff;*/
-        margin: 140px 100px 200px 100px;
+        /* margin: 140px 100px 200px 100px; */
     }
     .opcionesProducto li h2 {
         color: whitesmoke;
     }
     .opcionesProducto li h1 {
         color: whitesmoke;
-        margin: 4px;
+        /* margin: 4px; */
     }
 
     .colores__cajitas {
@@ -345,7 +342,7 @@ EJEM: productoRemeara.html */
     .colores__individual {
         width: 30px;
         height: 30px;
-        margin: 10px;
+        /* margin: 10px; */
         border-radius: 6px;
         transition: 1s;
         background-color: #ffffff;
@@ -397,7 +394,7 @@ EJEM: productoRemeara.html */
     .talles__individual {
         width: 30px;
         height: 30px;
-        margin: 4px;
+        /* margin: 4px; */
         border-radius: 6px;
         border: solid 2px #000000;
         background-color: #ffffff;
