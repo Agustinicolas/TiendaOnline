@@ -1,0 +1,42 @@
+[
+    {
+        "nombre":"remera basica blanca",
+        "categoria":"remeras",
+        "color":"blanco",
+        "img-url":"img/productos/remeras/remera-blanca-500x500",
+        "descripcion":"Remera clasica para el dia a dia",
+        "precio":4999
+    },
+    {
+        "nombre":"hoodie clasico azul",
+        "categoria":"hoodies",
+        "color":"azul",
+        "img-url":"img/productos/hoodies/hoodie-azul-500x500",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "nombre":"jean negro",
+        "categoria":"jeans",
+        "color":"negro",
+        "img-url":"img/productos/jeans/jean-negro-500x500",
+        "descripcion":"Jean clasico",
+        "precio":8999
+    },
+    {
+        "nombre":"remera basica negra",
+        "categoria":"remeras",
+        "color":"negro",
+        "img-url":"img/productos/remeras/remera-negra-500x500",
+        "descripcion":"Remera clasica para el dia a dia",
+        "precio":4999
+    },
+    {
+        "nombre":"remera basica negra",
+        "categoria":"remeras",
+        "color":"negro",
+        "img-url":"img/productos/remeras/remera-negra-500x500",
+        "descripcion":"Remera clasica para el dia a dia",
+        "precio":4999
+    }
+]
