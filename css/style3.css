@@ -138,10 +138,11 @@ ul{
     visibility: hidden;
     opacity: 0;
     padding: 0.3rem;
-    margin-top: 0.4rem;
+    margin-top: 0.36rem;
     position: absolute; /*hace que no se expanda el header*/
     transition: 1.5s;
     background: linear-gradient(#541299,#000);
+    border-radius: 0px 0px 10px 10px;
 }
 @media (hover: hover) { /*Submenu se desplega*/
     .header__menu li:hover .submenu{
