@@ -41,12 +41,14 @@ html {
     /*font-size: 1.25rem;*/
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
+    overflow-x: hidden;
 }
 
 ul{
@@ -69,6 +71,7 @@ ul{
     position: sticky;
     top: 0;
     box-shadow: 0 0 20px rgb(72, 0, 155);
+    z-index: 1;
 }
 
 @media (hover: hover){
@@ -181,8 +184,10 @@ ul{
     align-items: center;
     justify-content: space-around;
 */
-    width: 250px;
-    height: 350px;
+    width: 80%;
+    height: auto;
+    max-width: 350px;
+    max-height: 600px;
     margin: 25px 35px;
     padding-bottom: 30%;
     border: solid 2px #ffffff;
@@ -234,8 +239,8 @@ ul{
     border-radius: 4px;
 }
 
-.footer__contacto li{
-    display: inline-flex;
+.footer__contacto{
+    display: flex;
     flex-flow: column wrap;
     gap: 0.2rem;
     align-items: center;
