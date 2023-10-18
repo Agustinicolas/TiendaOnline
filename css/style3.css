@@ -69,6 +69,7 @@ ul{
     position: sticky;
     top: 0;
     box-shadow: 0 0 20px rgb(72, 0, 155);
+    z-index: 1;
 }
 
 @media (hover: hover){
@@ -79,7 +80,8 @@ ul{
 
 
 .main {
-    background-image: url("../img/headerFondo/b63ff50bc41013957b0085f00b1ce2b5.jpg");
+    /*background-image: url("../img/headerFondo/b63ff50bc41013957b0085f00b1ce2b5.jpg");*/
+    background: linear-gradient(#000, #210039);
     /*background-color: rgb(0, 0, 0);*/
     /*background-color: var(--HEADER-COLOR);*/
     display: flex;
@@ -165,7 +167,7 @@ ul{
 }
 
 .main__contenido {
-    display: inline-flex;
+    display: flex;
     flex-flow: column nowrap;
     align-items: center;
     flex-grow: 1;
@@ -174,20 +176,15 @@ ul{
 }
 
 .main__caja{
-    /*display: inline-flex;
-    flex-flow: row wrap;
-    
-    align-items: center;
-    justify-content: space-around;
-*/
-    width: 250px;
-    height: 350px;
+    width: 80%;
+    height: auto;
+    max-width: 300px;
+    max-height: 500px;
     margin: 25px 35px;
     padding-bottom: 30%;
     border: solid 2px #ffffff;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
     transition: 0.5s;
 }
 
@@ -203,7 +200,6 @@ ul{
 
 .main__caja img{
     align-items: center;
-    display: flex;
     justify-content: center;
     border-radius: 10px;
     width: 100%;
@@ -264,12 +260,13 @@ a:any-link{
         align-items: center;
         justify-content: space-evenly;
     }
-
-/*.main__contenido div {
+/*
+    .main__caja {
         width: 250px;
         height: 350px;
         margin: 20px 60px;
-    }*/
+    }
+*/
 }
 
 
