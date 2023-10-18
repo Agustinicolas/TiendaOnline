@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* || RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font: inherit;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* COLORS */
+  --HEADER-BGCOLOR: #000000;
+  --HEADER-COLOR: whitesmoke;
+}
+
+/* || CLASES DE UTILIDAD */
+
+.underline {
+    text-decoration: underline;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.nowrapAndBlock {
+    flex-wrap: nowrap;
+    display: block;
+}
+
+/* || ESTILOS GENERALES */
+
+html {
+    /*font-size: 1.25rem;*/
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+
+/* || BLOQUES */
+
+.header {
+    top: 0;
+    background-image: url("../img/headerFondo/2024d937ecd649043e5f3caaa3c92ceb.jpg");
+    /*background-color: var(--HEADER-BGCOLOR);*/
+    color: var(--HEADER-COLOR);
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 20px rgb(72, 0, 155);
+}
+
+@media (hover: hover){
+    .header__menu a:hover{
+        text-shadow: 0 0 50px #5a00eb;
+    }
+}
+
+
+.main {
+    background-image: url("../img/headerFondo/b63ff50bc41013957b0085f00b1ce2b5.jpg");
+    /*background-color: rgb(0, 0, 0);*/
+    /*background-color: var(--HEADER-COLOR);*/
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.footer {
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+
+/* || ELEMENTOS */
+
+.header__titulo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 0.75rem;
+}
+
+.header__nav {
+    width: 100vw;
+    display: flex;
+    flex-grow: auto;
+}
+
+.header__menu{
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+.header__menu li {
+    display: block;
+    transition: 0.5s;
+}
+@media (hover: hover) {
+    .header__menu li:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+.header__menu li ul { /*Submenu oculto*/
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    padding-bottom: 6px;
+    position: absolute; /*hace que no se expanda el header*/
+    transition: 1.5s;
+}
+@media (hover: hover) { /*Submenu se desplega*/
+    .header__menu li:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+        cursor: pointer;
+
+    }
+}
+.submenu li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+/*estilos del catalogo*/
+.main__recomendados {
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
+    color: whitesmoke;
+
+}
+
+.main__contenido {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex-grow: 1;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+}
+
+.main__caja{
+    /*display: inline-flex;
+    flex-flow: row wrap;
+    
+    align-items: center;
+    justify-content: space-around;
+*/
+    width: 250px;
+    height: 350px;
+    margin: 25px 35px;
+    padding-bottom: 30%;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+    transition: 0.5s;
+}
+
+@media (hover: hover) {
+    .main__caja:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.5s;
+        box-shadow: 0 0 30px rgb(102, 0, 219);
+    }
+}
+
+
+.main__caja img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.main__caja h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+/*Estilos del footer*/
+.footer{
+    display: inline-flex;
+}
+
+.footer__mediospago{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0.5rem 1rem;
+}
+.footer__mediospago li img {
+    border-radius: 4px;
+}
+
+.footer__contacto li{
+    display: inline-flex;
+    flex-flow: column wrap;
+    gap: 0.2rem;
+    align-items: center;
+    padding: 1rem 0.5rem 1rem;
+}
+
+.footer__mediospago li:first-child, .footer__contacto li:first-child {
+    width: 100vw;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:any-link{
+    color:var(--HEADER-COLOR);
+}
+
+@media screen and (min-width: 992px){
+    .main__contenido {
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+/*.main__contenido div {
+        width: 250px;
+        height: 350px;
+        margin: 20px 60px;
+    }*/
+}
+
+
+/* estilos para la paginas de Productos
+EJEM: productoRemeara.html */
+
+.main__producto {
+    /*background-color: rgb(47, 241, 255);*/
+    display: inline-flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+@media screen and (min-width: 992px){
+    .main__producto {
+        
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+    .cajaProducto{
+        display: flex;
+        width: 350px;
+        height: 500px;
+        margin: 140px 100px 200px 100px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px rgb(102, 0, 219);
+    }
+
+    .cajaProducto img{
+        justify-content: center;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .opcionesProducto {
+        list-style: none;
+        display: flex;
+        flex-flow: column wrap;
+        
+        justify-content: space-evenly;/*centra todo en el box*/
+        width: 500px;
+        height: 600px;
+        /*background-color: rgb(20, 20, 20);
+        border: solid 2px #ffffff;*/
+        margin: 140px 100px 200px 100px;
+    }
+    .opcionesProducto li h2 {
+        color: whitesmoke;
+    }
+    .opcionesProducto li h1 {
+        color: whitesmoke;
+        margin: 4px;
+    }
+
+    .colores__cajitas {
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 350px;
+        height: 150px;
+        border-radius: 10px;
+        border: solid 2px #000000; 
+    }
+    .colores__individual {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        border-radius: 6px;
+        transition: 1s;
+        background-color: #ffffff;
+    }
+    @media (hover: hover) {
+        .colores__individual:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: 0.5s;
+            box-shadow: 0 0 30px rgb(102, 0, 219);
+        }
+    }
+
+    #color1 {
+        background-color: tomato;
+    }
+    @media (hover: hover) {
+        #color1:hover{
+            box-shadow: 0 0 30px tomato;
+        }
+    }
+    #color2 {
+        background-color: greenyellow;
+    }
+    @media (hover: hover) {
+        #color2:hover{
+            box-shadow: 0 0 30px greenyellow;
+        }
+    }
+    #color3 {
+        background-color: royalblue;
+    }
+    @media (hover: hover) {
+        #color3:hover{
+            box-shadow: 0 0 30px royalblue;
+        }
+    }
+
+    .talles__cajitas {
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid 2px #000000; 
+    }
+    .talles__individual {
+        width: 30px;
+        height: 30px;
+        margin: 4px;
+        border-radius: 6px;
+        border: solid 2px #000000;
+        background-color: #ffffff;
+        text-align: center;
+        
+    }
+    @media (hover: hover) {
+        .talles__individual:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: 0.5s;
+            box-shadow: 0 0 30px rgb(102, 0, 219);
+        }
+    }
+
+    .talles__cajitas {
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border: solid 2px #000000; 
+    }
+
