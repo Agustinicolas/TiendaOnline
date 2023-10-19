@@ -85,7 +85,8 @@ ul{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer {
@@ -171,7 +172,7 @@ ul{
     flex-flow: column nowrap;
     align-items: center;
     flex-grow: 1;
-    gap: 0.5rem;
+    gap: 1rem;
     justify-content: space-evenly;
 }
 
@@ -182,10 +183,9 @@ ul{
     align-items: center;
     justify-content: space-around;
 */
-    width: 80%;
-    height: auto;
-    max-width: 350px;
-    max-height: 600px;
+    align-items: center;
+    width: min(80vw, 520px);
+    height: min(80vw, 570px);
     /* margin: 25px 35px; */
     padding-bottom: 30%;
     border: solid 2px #ffffff;
@@ -210,10 +210,11 @@ ul{
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    width: 100%;
+    width: 95%;
     height: auto;
 }
 .main__caja h3 {
+    font-size: 1.4rem;
     align-items: center;
     display: flex;
     justify-content: center;
