@@ -98,6 +98,7 @@ ul{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    margin-top: auto;
 }
 
 
@@ -229,12 +230,17 @@ ul{
     border-radius: 4px;
 }
 
-.footer__contacto li{
-    display: inline-flex;
-    flex-flow: column wrap;
+.footer__contacto {
+    display: flex;
+    flex-flow: row wrap;
     gap: 0.2rem;
     align-items: center;
+    justify-content: space-around;
     padding: 1rem 0.5rem 1rem;
+}
+
+.footer__contacto li a{
+    border-radius: 4px;
 }
 
 .footer__mediospago li:first-child, .footer__contacto li:first-child {
