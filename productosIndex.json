@@ -1,17 +1,17 @@
 [
     {
-        "nombre":"remera basica blanca",
+        "nombre":"remera basica azul",
         "categoria":"remeras",
         "color":"blanco",
-        "img-url":"img/productos/remeras/remera-blanca-500x500",
-        "descripcion":"Remera clasica para el dia a dia",
+        "imgurl":"img/productos/remeras/remera-azul-500x500.png",
+        "descripcion":"Remera clasica",
         "precio":4999
     },
     {
-        "nombre":"hoodie clasico azul",
+        "nombre":"hoodie clasico naranja",
         "categoria":"hoodies",
         "color":"azul",
-        "img-url":"img/productos/hoodies/hoodie-azul-500x500",
+        "imgurl":"img/productos/hoodies/hoodie-naranja-500x500.png",
         "descripcion":"Hoodie clasico",
         "precio":6999
     },
@@ -19,7 +19,7 @@
         "nombre":"jean negro",
         "categoria":"jeans",
         "color":"negro",
-        "img-url":"img/productos/jeans/jean-negro-500x500",
+        "imgurl":"img/productos/jeans/jean-negro-500x500.png",
         "descripcion":"Jean clasico",
         "precio":8999
     },
@@ -27,16 +27,16 @@
         "nombre":"remera basica negra",
         "categoria":"remeras",
         "color":"negro",
-        "img-url":"img/productos/remeras/remera-negra-500x500",
-        "descripcion":"Remera clasica para el dia a dia",
+        "imgurl":"img/productos/remeras/remera-negra-500x500.png",
+        "descripcion":"Remera clasica",
         "precio":4999
     },
     {
-        "nombre":"remera basica negra",
-        "categoria":"remeras",
+        "nombre":"Gafas de sol rojas",
+        "categoria":"accesorios",
         "color":"negro",
-        "img-url":"img/productos/remeras/remera-negra-500x500",
-        "descripcion":"Remera clasica para el dia a dia",
-        "precio":4999
+        "imgurl":"img/productos/accesorios/gafas-sol-rojas-500x500.png",
+        "descripcion":"Gafas de sol rojas",
+        "precio":7999
     }
 ]
