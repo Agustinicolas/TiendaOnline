@@ -161,7 +161,6 @@ ul{
 /*estilos del catalogo*/
 .main__recomendados {
     font-size: 1.4rem;
-    padding-top: 1.5rem;
     padding-bottom: 1.0rem;
     color: whitesmoke;
 
@@ -177,17 +176,12 @@ ul{
 }
 
 .main__caja{
-    /*display: inline-flex;
-    flex-flow: row wrap;
-    
-    align-items: center;
-    justify-content: space-around;
-*/
+    display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     width: min(80vw, 520px);
     height: min(80vw, 570px);
     /* margin: 25px 35px; */
-    padding-bottom: 30%;
     border: solid 2px #ffffff;
     border-radius: 10px;
     background-color: white;
@@ -206,18 +200,13 @@ ul{
 
 
 .main__caja img{
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    
     border-radius: 10px;
     width: 95%;
     height: auto;
 }
 .main__caja h3 {
     font-size: 1.4rem;
-    align-items: center;
-    display: flex;
-    justify-content: center;
     color: #000000;
 }
 

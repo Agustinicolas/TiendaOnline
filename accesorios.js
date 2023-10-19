@@ -11,7 +11,7 @@ function mostrarProductos(data) {
     const mapeo = data.map((prod) =>{
         producto1+=` <a href="/" class="main__caja">
         <img src="${prod.imgurl}" alt="">
-        <h3>${prod.nombre}</h3> `
+        <h3 class="nowrap">${prod.nombre}</h3> `
     });
     document.getElementById("main__contenido").innerHTML=producto1;
 
