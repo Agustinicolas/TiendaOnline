@@ -180,13 +180,15 @@ ul{
     flex-flow: column nowrap;
     align-items: center;
     width: min(80vw, 520px);
-    height: min(80vw, 570px);
+    height: auto;
     /* margin: 25px 35px; */
     border: solid 2px #ffffff;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
     transition: 0.5s;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 @media (hover: hover) {
@@ -204,10 +206,12 @@ ul{
     border-radius: 10px;
     width: 95%;
     height: auto;
+    flex-shrink: 1;
 }
 .main__caja h3 {
     font-size: 1.4rem;
     color: #000000;
+    flex-shrink: 1;
 }
 
 /*Estilos del footer*/
