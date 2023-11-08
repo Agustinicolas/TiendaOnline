@@ -1,4 +1,4 @@
-fetch("productosHoodies.json")
+fetch("../json/productosRemeras.json")
     .then(res => res.json())
     .then(data => {
         console.log(data);

@@ -3,7 +3,7 @@
         "nombre":"Gafas de sol azules",
         "categoria":"accesorios",
         "color":"azul",
-        "imgurl":"img/productos/accesorios/gafas-sol-azul-500x500.png",
+        "imgurl":"../img/productos/accesorios/gafas-sol-azul-500x500.png",
         "descripcion":"Gafas de sol azules",
         "precio":7999
     },
@@ -11,7 +11,7 @@
         "nombre":"Gafas de sol negras",
         "categoria":"accesorios",
         "color":"negro",
-        "imgurl":"img/productos/accesorios/gafas-sol-negras-500x500.png",
+        "imgurl":"../img/productos/accesorios/gafas-sol-negras-500x500.png",
         "descripcion":"Gafas de sol negras",
         "precio":7999
     },
@@ -19,7 +19,7 @@
         "nombre":"Gafas de sol rojas",
         "categoria":"accesorios",
         "color":"rojo",
-        "imgurl":"img/productos/accesorios/gafas-sol-rojas-500x500.png",
+        "imgurl":"../img/productos/accesorios/gafas-sol-rojas-500x500.png",
         "descripcion":"Gafas de sol rojas",
         "precio":7999
     },
@@ -27,7 +27,7 @@
         "nombre":"Gorra gris",
         "categoria":"accesorios",
         "color":"gris",
-        "imgurl":"img/productos/accesorios/gorra-gris-500x500.png",
+        "imgurl":"../img/productos/accesorios/gorra-gris-500x500.png",
         "descripcion":"Gorra gris",
         "precio":3999
     },
@@ -35,7 +35,7 @@
         "nombre":"Gorra negra",
         "categoria":"accesorios",
         "color":"negro",
-        "imgurl":"img/productos/accesorios/gorra-negra-500x500.png",
+        "imgurl":"../img/productos/accesorios/gorra-negra-500x500.png",
         "descripcion":"Gorra negra",
         "precio":3999
     },
@@ -43,7 +43,7 @@
         "nombre":"Gorra roja",
         "categoria":"accesorios",
         "color":"rojo",
-        "imgurl":"img/productos/accesorios/gorra-roja-500x500.png",
+        "imgurl":"../img/productos/accesorios/gorra-roja-500x500.png",
         "descripcion":"Gorra roja",
         "precio":3999
     },
@@ -51,7 +51,7 @@
         "nombre":"Gorra azul",
         "categoria":"accesorios",
         "color":"azul",
-        "imgurl":"img/productos/accesorios/gorra-azul-500x500.png",
+        "imgurl":"../img/productos/accesorios/gorra-azul-500x500.png",
         "descripcion":"Gorra azul",
         "precio":3999
     }

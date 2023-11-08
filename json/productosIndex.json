@@ -3,7 +3,7 @@
         "nombre":"remera basica azul",
         "categoria":"remeras",
         "color":"blanco",
-        "imgurl":"img/productos/remeras/remera-azul-500x500.png",
+        "imgurl":"../img/productos/remeras/remera-azul-500x500.png",
         "descripcion":"Remera clasica",
         "precio":4999
     },
@@ -11,7 +11,7 @@
         "nombre":"hoodie clasico naranja",
         "categoria":"hoodies",
         "color":"azul",
-        "imgurl":"img/productos/hoodies/hoodie-naranja-500x500.png",
+        "imgurl":"../img/productos/hoodies/hoodie-naranja-500x500.png",
         "descripcion":"Hoodie clasico",
         "precio":6999
     },
@@ -19,7 +19,7 @@
         "nombre":"jean negro",
         "categoria":"jeans",
         "color":"negro",
-        "imgurl":"img/productos/jeans/jean-negro-500x500.png",
+        "imgurl":"../img/productos/jeans/jean-negro-500x500.png",
         "descripcion":"Jean clasico",
         "precio":8999
     },
@@ -27,7 +27,7 @@
         "nombre":"remera basica negra",
         "categoria":"remeras",
         "color":"negro",
-        "imgurl":"img/productos/remeras/remera-negra-500x500.png",
+        "imgurl":"../img/productos/remeras/remera-negra-500x500.png",
         "descripcion":"Remera clasica",
         "precio":4999
     },
@@ -35,7 +35,7 @@
         "nombre":"Gafas de sol rojas",
         "categoria":"accesorios",
         "color":"negro",
-        "imgurl":"img/productos/accesorios/gafas-sol-rojas-500x500.png",
+        "imgurl":"../img/productos/accesorios/gafas-sol-rojas-500x500.png",
         "descripcion":"Gafas de sol rojas",
         "precio":7999
     }
