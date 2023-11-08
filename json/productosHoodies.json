@@ -1,5 +1,6 @@
 [
     {
+        "id":"hoo-001",
         "nombre":"Hoodie amarillo",
         "categoria":"hoodies",
         "color":"amarillo",
@@ -8,6 +9,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-002",
         "nombre":"Hoodie azul",
         "categoria":"hoodies",
         "color":"azul",
@@ -16,6 +18,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-003",
         "nombre":"Hoodie celeste",
         "categoria":"hoodies",
         "color":"celeste",
@@ -24,6 +27,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-004",
         "nombre":"Hoodie gris",
         "categoria":"hoodies",
         "color":"gris",
@@ -32,6 +36,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-005",
         "nombre":"Hoodie naranja",
         "categoria":"hoodies",
         "color":"naranja",
@@ -40,6 +45,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-006",
         "nombre":"Hoodie negro",
         "categoria":"hoodies",
         "color":"negro",
@@ -48,6 +54,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-007",
         "nombre":"Hoodie rojo",
         "categoria":"hoodies",
         "color":"rojo",
@@ -56,6 +63,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-008",
         "nombre":"Hoodie turquesa",
         "categoria":"hoodies",
         "color":"turquesa",
@@ -64,6 +72,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-009",
         "nombre":"Hoodie verde",
         "categoria":"hoodies",
         "color":"verde",
@@ -72,6 +81,7 @@
         "precio":6999
     },
     {
+        "id":"hoo-010",
         "nombre":"Hoodie violeta",
         "categoria":"hoodies",
         "color":"violeta",

@@ -1,5 +1,6 @@
 [
     {
+        "id":"acc-001",
         "nombre":"Gafas de sol azules",
         "categoria":"accesorios",
         "color":"azul",
@@ -8,6 +9,7 @@
         "precio":7999
     },
     {
+        "id":"acc-002",
         "nombre":"Gafas de sol negras",
         "categoria":"accesorios",
         "color":"negro",
@@ -16,6 +18,7 @@
         "precio":7999
     },
     {
+        "id":"acc-003",
         "nombre":"Gafas de sol rojas",
         "categoria":"accesorios",
         "color":"rojo",
@@ -24,6 +27,7 @@
         "precio":7999
     },
     {
+        "id":"acc-004",
         "nombre":"Gorra gris",
         "categoria":"accesorios",
         "color":"gris",
@@ -32,6 +36,7 @@
         "precio":3999
     },
     {
+        "id":"acc-005",
         "nombre":"Gorra negra",
         "categoria":"accesorios",
         "color":"negro",
@@ -40,6 +45,7 @@
         "precio":3999
     },
     {
+        "id":"acc-006",
         "nombre":"Gorra roja",
         "categoria":"accesorios",
         "color":"rojo",
@@ -48,6 +54,7 @@
         "precio":3999
     },
     {
+        "id":"acc-007",
         "nombre":"Gorra azul",
         "categoria":"accesorios",
         "color":"azul",

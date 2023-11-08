@@ -1,5 +1,6 @@
 [
     {
+        "id":"rem-001",
         "nombre":"Remera azul",
         "categoria":"remeras",
         "color":"azul",
@@ -8,6 +9,7 @@
         "precio":4999
     },
     {
+        "id":"rem-002",
         "nombre":"Remera blanca",
         "categoria":"remeras",
         "color":"blanco",
@@ -16,6 +18,7 @@
         "precio":4999
     },
     {
+        "id":"rem-003",
         "nombre":"Remera celeste",
         "categoria":"remeras",
         "color":"celeste",
@@ -24,6 +27,7 @@
         "precio":4999
     },
     {
+        "id":"rem-004",
         "nombre":"Remera gris",
         "categoria":"remeras",
         "color":"gris",
@@ -32,6 +36,7 @@
         "precio":4999
     },
     {
+        "id":"rem-005",
         "nombre":"Remera naranja",
         "categoria":"remeras",
         "color":"naranja",
@@ -40,6 +45,7 @@
         "precio":4999
     },
     {
+        "id":"rem-006",
         "nombre":"Remera negra",
         "categoria":"remeras",
         "color":"negro",
@@ -48,6 +54,7 @@
         "precio":4999
     },
     {
+        "id":"rem-007",
         "nombre":"Remera roja",
         "categoria":"remeras",
         "color":"rojo",
@@ -56,6 +63,7 @@
         "precio":4999
     },
     {
+        "id":"rem-008",
         "nombre":"Remera rosa",
         "categoria":"remeras",
         "color":"rosa",
@@ -64,6 +72,7 @@
         "precio":4999
     },
     {
+        "id":"rem-009",
         "nombre":"Remera verde",
         "categoria":"remeras",
         "color":"verde",
@@ -72,6 +81,7 @@
         "precio":4999
     },
     {
+        "id":"rem-010",
         "nombre":"Remera violeta",
         "categoria":"remeras",
         "color":"violeta",
