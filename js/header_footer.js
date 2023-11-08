@@ -2,7 +2,7 @@ const header = document.getElementById("header");
 const footer = document.getElementById("footer");
 
 header.innerHTML = `
-<h1 class="header__titulo"><a href="#">Unniq</a></h1>
+<h1 class="header__titulo"><a href="index.html">Unniq</a></h1>
 <nav class="header__nav">
     <ul class="header__menu">
         <li><a href="./productos.html" target="_blank">Productos</a>

@@ -9,9 +9,9 @@ fetch("../json/productosIndex.json")
 function mostrarProductos(data) {
     let producto1="";
     const mapeo = data.map((prod) =>{
-        producto1+=` <a href="/" class="main__caja">
+        producto1+=` <a href="./seleccion.html" class="main__caja">
         <img src="${prod.imgurl}" alt="">
-        <h3 class="nowrap">${prod.nombre}</h3> `
+        <h3 class="nowrap">${prod.nombre}</h3> </a>`
     });
     document.getElementById("main__contenido").innerHTML=producto1;
 
