@@ -168,9 +168,9 @@ ul{
 }
 
 .main__contenido {
-    display: inline-flex;
+    display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    align-items: flex-start;
     flex-grow: 1;
     gap: 1rem;
     justify-content: space-evenly;
@@ -263,12 +263,6 @@ a:any-link{
         align-items: center;
         justify-content: space-evenly;
     }
-
-/*.main__contenido div {
-        width: 250px;
-        height: 350px;
-        margin: 20px 60px;
-    }*/
 }
 
 
