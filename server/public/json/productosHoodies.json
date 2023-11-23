@@ -1,0 +1,93 @@
+[
+    {
+        "id":"hoo-001",
+        "nombre":"Hoodie amarillo",
+        "categoria":"hoodies",
+        "color":"amarillo",
+        "imgurl":"../img/productos/hoodies/hoodie-amarillo-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-002",
+        "nombre":"Hoodie azul",
+        "categoria":"hoodies",
+        "color":"azul",
+        "imgurl":"../img/productos/hoodies/hoodie-azul-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-003",
+        "nombre":"Hoodie celeste",
+        "categoria":"hoodies",
+        "color":"celeste",
+        "imgurl":"../img/productos/hoodies/hoodie-celeste-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-004",
+        "nombre":"Hoodie gris",
+        "categoria":"hoodies",
+        "color":"gris",
+        "imgurl":"../img/productos/hoodies/hoodie-gris-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-005",
+        "nombre":"Hoodie naranja",
+        "categoria":"hoodies",
+        "color":"naranja",
+        "imgurl":"../img/productos/hoodies/hoodie-naranja-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-006",
+        "nombre":"Hoodie negro",
+        "categoria":"hoodies",
+        "color":"negro",
+        "imgurl":"../img/productos/hoodies/hoodie-negro-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-007",
+        "nombre":"Hoodie rojo",
+        "categoria":"hoodies",
+        "color":"rojo",
+        "imgurl":"../img/productos/hoodies/hoodie-rojo-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-008",
+        "nombre":"Hoodie turquesa",
+        "categoria":"hoodies",
+        "color":"turquesa",
+        "imgurl":"../img/productos/hoodies/hoodie-turquesa-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-009",
+        "nombre":"Hoodie verde",
+        "categoria":"hoodies",
+        "color":"verde",
+        "imgurl":"../img/productos/hoodies/hoodie-verde-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    },
+    {
+        "id":"hoo-010",
+        "nombre":"Hoodie violeta",
+        "categoria":"hoodies",
+        "color":"violeta",
+        "imgurl":"../img/productos/hoodies/hoodie-violeta-500x500.png",
+        "descripcion":"Hoodie clasico",
+        "precio":6999
+    }  
+    
+]

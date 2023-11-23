@@ -1,0 +1,6 @@
+# Ignora carpeta .vscode
+vscode/
+
+# Ignora carpeta de modulos node
+
+server/node_modules/
