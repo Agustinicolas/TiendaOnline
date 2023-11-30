@@ -1,10 +1,10 @@
 import { mostrarProductos } from "./funciones.js";
 const contenedor = document.getElementById("main__contenido");
 
-fetch("../json/productosAccesorios.json")
+fetch("http://localhost:3000/api/products/category/accesorios")
     .then(res => res.json())
     .then(data => {
-        console.log(data);
-        mostrarProductos(data, contenedor);
+        let productosAMostrar = data.data.products;
+        mostrarProductos(productosAMostrar, contenedor);
     })
     .catch(error => console.log(error));

@@ -4,7 +4,7 @@
     "nombre": "Gafas de sol azules",
     "categoria": "accesorios",
     "color": "azul",
-    "imgurl": "../public/img/productos/accesorios/gafas-sol-azul-500x500.png",
+    "imgurl": "../img/productos/accesorios/gafas-sol-azul-500x500.png",
     "descripcion": "Gafas de sol azules",
     "precio": 7999
   },
@@ -13,7 +13,7 @@
     "nombre": "Gafas de sol negras",
     "categoria": "accesorios",
     "color": "negro",
-    "imgurl": "../public/img/productos/accesorios/gafas-sol-negras-500x500.png",
+    "imgurl": "../img/productos/accesorios/gafas-sol-negras-500x500.png",
     "descripcion": "Gafas de sol negras",
     "precio": 7999
   },
@@ -22,7 +22,7 @@
     "nombre": "Gafas de sol rojas",
     "categoria": "accesorios",
     "color": "rojo",
-    "imgurl": "../public/img/productos/accesorios/gafas-sol-rojas-500x500.png",
+    "imgurl": "../img/productos/accesorios/gafas-sol-rojas-500x500.png",
     "descripcion": "Gafas de sol rojas",
     "precio": 7999
   },
@@ -31,7 +31,7 @@
     "nombre": "Gorra gris",
     "categoria": "accesorios",
     "color": "gris",
-    "imgurl": "../public/img/productos/accesorios/gorra-gris-500x500.png",
+    "imgurl": "../img/productos/accesorios/gorra-gris-500x500.png",
     "descripcion": "Gorra gris",
     "precio": 3999
   },
@@ -40,7 +40,7 @@
     "nombre": "Gorra negra",
     "categoria": "accesorios",
     "color": "negro",
-    "imgurl": "../public/img/productos/accesorios/gorra-negra-500x500.png",
+    "imgurl": "../img/productos/accesorios/gorra-negra-500x500.png",
     "descripcion": "Gorra negra",
     "precio": 3999
   },
@@ -49,7 +49,7 @@
     "nombre": "Gorra roja",
     "categoria": "accesorios",
     "color": "rojo",
-    "imgurl": "../public/img/productos/accesorios/gorra-roja-500x500.png",
+    "imgurl": "../img/productos/accesorios/gorra-roja-500x500.png",
     "descripcion": "Gorra roja",
     "precio": 3999
   },
@@ -58,7 +58,7 @@
     "nombre": "Gorra azul",
     "categoria": "accesorios",
     "color": "azul",
-    "imgurl": "../public/img/productos/accesorios/gorra-azul-500x500.png",
+    "imgurl": "../img/productos/accesorios/gorra-azul-500x500.png",
     "descripcion": "Gorra azul",
     "precio": 3999
   },
@@ -67,7 +67,7 @@
     "nombre": "Hoodie amarillo",
     "categoria": "hoodies",
     "color": "amarillo",
-    "imgurl": "../public/img/productos/hoodies/hoodie-amarillo-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-amarillo-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -76,7 +76,7 @@
     "nombre": "Hoodie azul",
     "categoria": "hoodies",
     "color": "azul",
-    "imgurl": "../public/img/productos/hoodies/hoodie-azul-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-azul-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -85,7 +85,7 @@
     "nombre": "Hoodie celeste",
     "categoria": "hoodies",
     "color": "celeste",
-    "imgurl": "../public/img/productos/hoodies/hoodie-celeste-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-celeste-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -94,7 +94,7 @@
     "nombre": "Hoodie gris",
     "categoria": "hoodies",
     "color": "gris",
-    "imgurl": "../public/img/productos/hoodies/hoodie-gris-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-gris-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -103,7 +103,7 @@
     "nombre": "Hoodie naranja",
     "categoria": "hoodies",
     "color": "naranja",
-    "imgurl": "../public/img/productos/hoodies/hoodie-naranja-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-naranja-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -112,7 +112,7 @@
     "nombre": "Hoodie negro",
     "categoria": "hoodies",
     "color": "negro",
-    "imgurl": "../public/img/productos/hoodies/hoodie-negro-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-negro-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -121,7 +121,7 @@
     "nombre": "Hoodie rojo",
     "categoria": "hoodies",
     "color": "rojo",
-    "imgurl": "../public/img/productos/hoodies/hoodie-rojo-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-rojo-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -130,7 +130,7 @@
     "nombre": "Hoodie turquesa",
     "categoria": "hoodies",
     "color": "turquesa",
-    "imgurl": "../public/img/productos/hoodies/hoodie-turquesa-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-turquesa-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -139,7 +139,7 @@
     "nombre": "Hoodie verde",
     "categoria": "hoodies",
     "color": "verde",
-    "imgurl": "../public/img/productos/hoodies/hoodie-verde-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-verde-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -148,7 +148,7 @@
     "nombre": "Hoodie violeta",
     "categoria": "hoodies",
     "color": "violeta",
-    "imgurl": "../public/img/productos/hoodies/hoodie-violeta-500x500.png",
+    "imgurl": "../img/productos/hoodies/hoodie-violeta-500x500.png",
     "descripcion": "Hoodie clasico",
     "precio": 6999
   },
@@ -157,7 +157,7 @@
     "nombre": "Remera azul",
     "categoria": "remeras",
     "color": "azul",
-    "imgurl": "../public/img/productos/remeras/remera-azul-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-azul-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -166,7 +166,7 @@
     "nombre": "Remera blanca",
     "categoria": "remeras",
     "color": "blanco",
-    "imgurl": "../public/img/productos/remeras/remera-blanca-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-blanca-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -175,7 +175,7 @@
     "nombre": "Remera celeste",
     "categoria": "remeras",
     "color": "celeste",
-    "imgurl": "../public/img/productos/remeras/remera-celeste-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-celeste-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -184,7 +184,7 @@
     "nombre": "Remera gris",
     "categoria": "remeras",
     "color": "gris",
-    "imgurl": "../public/img/productos/remeras/remera-gris-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-gris-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -193,7 +193,7 @@
     "nombre": "Remera naranja",
     "categoria": "remeras",
     "color": "naranja",
-    "imgurl": "../public/img/productos/remeras/remera-naranja-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-naranja-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -202,7 +202,7 @@
     "nombre": "Remera negra",
     "categoria": "remeras",
     "color": "negro",
-    "imgurl": "../public/img/productos/remeras/remera-negra-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-negra-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -211,7 +211,7 @@
     "nombre": "Remera roja",
     "categoria": "remeras",
     "color": "rojo",
-    "imgurl": "../public/img/productos/remeras/remera-roja-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-roja-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -220,7 +220,7 @@
     "nombre": "Remera rosa",
     "categoria": "remeras",
     "color": "rosa",
-    "imgurl": "../public/img/productos/remeras/remera-rosa-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-rosa-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -229,7 +229,7 @@
     "nombre": "Remera verde",
     "categoria": "remeras",
     "color": "verde",
-    "imgurl": "../public/img/productos/remeras/remera-verde-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-verde-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -238,7 +238,7 @@
     "nombre": "Remera violeta",
     "categoria": "remeras",
     "color": "violeta",
-    "imgurl": "../public/img/productos/remeras/remera-violeta-500x500.png",
+    "imgurl": "../img/productos/remeras/remera-violeta-500x500.png",
     "descripcion": "Remera",
     "precio": 4999
   },
@@ -247,7 +247,16 @@
     "nombre": "Prueba",
     "categoria": "accesorios",
     "color": "azul",
-    "imgurl": "../public/img/productos/accesorios/gafas-sol-azul-500x500.png",
+    "imgurl": "../img/productos/accesorios/gafas-sol-azul-500x500.png",
+    "descripcion": "Gafas de sol azules",
+    "precio": 9999
+  },
+  {
+    "id": 29,
+    "nombre": "Prueba2",
+    "categoria": "remeras",
+    "color": "azul",
+    "imgurl": "../img/productos/accesorios/gafas-sol-azul-500x500.png",
     "descripcion": "Gafas de sol azules",
     "precio": 9999
   }
