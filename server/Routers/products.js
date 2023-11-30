@@ -1,18 +1,11 @@
 const express = require('express');
-const app = express();
-const path = require('path');
-const port = process.env.PORT || 3000;
+const routerProducts = express.Router(); // evita repeticion en las rutas
+
 const fs = require('fs');
 let products = JSON.parse(fs.readFileSync('./data/products.json')); //JSON -> JS Object
 
-app.use(express.json()); // para que node compreda que trabajamos con datos (c.r.u.d) en un json
-app.use(express.static(path.join(__dirname , '/public')));
-//Routers, rutas web
-app.use('/api/products', require('./Routers/products')) //rutas de api/Products
-
-/*
 //GET - /api/products
-app.get('/api/products', (req,res)=>{
+routerProducts.get('/', (req,res)=>{
     res.status(200).json({
         status:"success",
         data: {
@@ -20,9 +13,9 @@ app.get('/api/products', (req,res)=>{
         }
     })
 });
-/*
+
 //GET - /api/products/:id
-app.get('/api/products/:id', (req,res) =>{
+routerProducts.get('/:id', (req,res) =>{
     let idBuscada = req.params;
     idBuscada = Number(idBuscada.id)    //Number devuelve NaN si idBuscada.id contiene caracteres o simbolos
     if (isNaN(idBuscada)){
@@ -52,34 +45,9 @@ app.get('/api/products/:id', (req,res) =>{
         }
     }
 })
-*/
-//GET - /api/products?count=x&from=Y
-app.get('/api/show', (req,res)=>{
-    let count = Number(req.query.count);
-    let from = Number(req.query.from);
 
-    if(isNaN(count) || isNaN(from)){  //PARAMETROS ENTEROS
-        res.status(400).json({
-            status:"error",
-            data:{
-                message:"parametros invalidos"
-            }
-        })        
-    }else{
-        from = from-1;
-        const tope = from + count;
-        const listaProductos = products.slice(from, tope);
-        res.status(200).json({
-            status:"success",
-            data:{
-                listaProductos: listaProductos
-            }
-        })
-    }
-})
-/*
 //POST - /api/products
-app.post('/api/products', (req,res)=>{
+routerProducts.post('/', (req,res)=>{
     const nuevaId = products[products.length -1].id + 1; //ID del nuevo producto
     const nuevoProducto = Object.assign({id: nuevaId}, req.body); //"mergea" 2 objetos en uno solo
     const categoriaNuevoProd = nuevoProducto.categoria;
@@ -104,12 +72,5 @@ app.post('/api/products', (req,res)=>{
         })
     }
 })
-*/
 
-app.listen(
-    port,
-    () => console.log(`Listening -> http://localhost:${port}`)
-);
-
-// /api/products
-// TODO: UNIR TODOS LOS PRODUCTOS EN UN MISMO JSON -> LUEGO MODIFICAR LOS JS
+module.exports = routerProducts;
