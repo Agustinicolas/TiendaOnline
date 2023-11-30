@@ -3,8 +3,9 @@ export function mostrarProductos(data, contenedor) {
         let producto = document.createElement("a");/* Creacion elemento a con clase main__caja y direccion a pagina seleccion.html */
         producto.setAttribute("class","main__caja");
         const categoria = elem.categoria;
+        console.log(categoria);
         const id = elem.id;
-        producto.setAttribute("href","./seleccion.html?categoria="+categoria+"&id="+id);
+        producto.setAttribute("href",`./api/products/${id}`);
         
         producto.innerHTML=`
         <img src="${elem.imgurl}" alt="">
