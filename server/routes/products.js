@@ -3,6 +3,7 @@ const routerProducts = express.Router(); // evita repeticion en las rutas
 
 const fs = require('fs');
 let products = JSON.parse(fs.readFileSync('./data/products.json')); //JSON -> JS Object
+let categories = JSON.parse(fs.readFileSync('./data/categories.json'));
 
 //GET - /api/products
 routerProducts.get('/', (req,res)=>{
@@ -71,16 +72,42 @@ routerProducts.get('/:id', (req,res) =>{
     }
 })
 
+//GET - /api/products/category/:categoria
+routerProducts.get('/category/:category', (req,res) =>{
+    let productosAMostrar ="";
+    let categoriaFiltrada = req.params;
+    categoriaFiltrada = categoriaFiltrada.category;
+    console.log(categoriaFiltrada);
+    if (categories.includes(categoriaFiltrada)){
+        productosAMostrar = products.filter((elem) => elem.categoria === categoriaFiltrada);
+        res.status(200).json(
+            {
+                status:"success",
+                data:{
+                    products: productosAMostrar
+                }
+            }
+        )
+    }else{
+        res.status(400).json({
+            status:"error",
+            data:{
+                message: "categoria no encontrada"
+            }
+        })
+    }
+})
+
 //POST - /api/products
 routerProducts.post('/', (req,res)=>{
     const nuevaId = products[products.length -1].id + 1; //ID del nuevo producto
     const nuevoProducto = Object.assign({id: nuevaId}, req.body); //"mergea" 2 objetos en uno solo
     const categoriaNuevoProd = nuevoProducto.categoria;
 
-    if(categoriaNuevoProd === "accesorios" || categoriaNuevoProd === "hoodies" || categoriaNuevoProd === "remeras"){
+    if(categories.includes(categoriaNuevoProd)){
         products.push(nuevoProducto);
 
-        fs.writeFile('./products.json', JSON.stringify(products), (err)=>{
+        fs.writeFile('./data/products.json', JSON.stringify(products), (err)=>{
             res.status(201).json({
                 status: "success",
                 data: {
