@@ -14,6 +14,31 @@ routerProducts.get('/', (req,res)=>{
     })
 });
 
+//GET - /api/products/view?count=x&from=Y
+routerProducts.get('/view', (req,res)=>{
+    let count = Number(req.query.count);
+    let from = Number(req.query.from);
+
+    if(isNaN(count) || isNaN(from)){  //PARAMETROS ENTEROS
+        res.status(400).json({
+            status:"error",
+            data:{
+                message:"parametros invalidos"
+            }
+        })        
+    }else{
+        from = from-1;
+        const tope = from + count;
+        const listaProductos = products.slice(from, tope);
+        res.status(200).json({
+            status:"success",
+            data:{
+                listaProductos: listaProductos
+            }
+        })
+    }
+})
+
 //GET - /api/products/:id
 routerProducts.get('/:id', (req,res) =>{
     let idBuscada = req.params;
